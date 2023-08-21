@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>University Website Design - Easy Tutorials</title>
+	 <link rel="stylesheet"  href="style.css">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class=" sub-header">
+		<nav>
+			<a href="index.html"><img src="img/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSES</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+     <h1> About Us</h1>
+	</section>
+   <section>
+   	<!------ about us content ---------->
+   	 <section class="About-us">
+   	 	<div class="row">
+   	 	     <div class="about-col">
+   	 		        <h1>we are the world's largest university</h1>
+   	 		        <p> Lorem ipsum dolor sit amet,consectetur adipiscing elit. pellntesque aliquet turpid nulla, eleifend faucibus est sollicitudin ut.maecenas ut venenatis ex, et dapibus purus Done sit </p>
+   	 		       <a href="" class="hero-btn red-btn">EXPLORE NOW</a>  
+   	       </div>
+   	 	     <div class="about-col">
+   	 	     	<img src="img/about.jpg">
+   	 	     </div>	
+   	 	</div>
+
+   </section>
+    
+
+ <!---- footer ------>
+ <section class="footer">
+ 	<h4>ABOUT US</h4>
+ 	<p>On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document<br> building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+You can easily change the<br> formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text<br> directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the<br> current theme or using a format that you specify directly.
+To change the overall look of your<br> document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Style gallery, use the Change<br> Current Quick Style Set command. Both the Themes gallery and <br>the Quick Styles gallery provide reset commands so that you<br> can always restore the look of your document to the original contained in your current template.</p>
+<div class="icons">
+	<i class="fa fa-facebook"></i>
+	<i class="fa fa-twitter"></i>
+	<i class="fa fa-instagram"></i>
+	<i class="fa fa-linkedin"></i>
+</div>
+<p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+ </section>
+
+
+
+
+
+<!------Javascript for Togglemenu-------->
+<script> 
+
+	var navLinks = document.getElementById("navLinks");
+	function showmenu(){
+		navLinks.style.right ="0px";
+	}
+
+	function hidemenu(){
+		navLinks.style.right="-200px";
+
+}
+
+</script>
+
+</body>
+  </html>
